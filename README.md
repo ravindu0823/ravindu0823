@@ -1,6 +1,6 @@
 ### Hi there 👋❤
 
-
+- _Hello, I'm Ravindu Dhanushka. I am undergraduate student of NSBM Green University. I'm Doing **BSC hons Software Engineering - Plymouth University**_
 - 🔭 I’m Currently Working on:
   - #### C, C++, C#, Python, HTML, CSS
 - 🌱 I’m Currently Learning:
@@ -13,6 +13,6 @@
   - [Instagram](https://www.instagram.com/__night_fury_23_/)
   - [LinkedIn](https://www.linkedin.com/in/ravindu-dhanushka-1b424a1a9/)
   - [Web Site](http://codingground.esy.es/ravindu/photomath/)
-- 😄 Pronouns: ...
+- 😄 Pronouns:
 - ⚡ Fun fact:
-  - ## ❤❣ Always Stay With Programming ❤❣
+    - ## ❤❣ Always Stay With Programming ❤❣
