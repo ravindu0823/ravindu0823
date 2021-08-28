@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 
-- 🔭 I’m currently working on ...C, C++, C#, Python, HTML, CSS,
+- 🔭 I’m currently working on ... ### C, C++, C#, Python, HTML, CSS,
 - 🌱 I’m currently learning ...C, C++, Python, C#
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
