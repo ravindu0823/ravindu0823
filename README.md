@@ -1,15 +1,15 @@
-### Hi there 👋, My name is Ravindu Dhanushka
+<h1 align="center">Hi there 👋, My name is Ravindu Dhanushka</h1>
 
-#### I am a Software Developer
+## I am a Software Developer
 
-Undergraduate 👨🏻‍🎓 || Bsc (hons) Software Engineering 👨🏻‍💻 || Plymouth || NSBM
+***Undergraduate 👨🏻‍🎓 || Bsc (hons) Software Engineering Plymouth University 👨🏻‍💻 || Plymouth - United Kingdom || NSBM***
 
 _Skills_: **C, C++, C#, Python, HTML, MySQL**
 
 - 🔭 I’m currently studying in **NSBM Green University Bsc (hons) Software Engineering**
 - 🌱 I’m currently learning **C#, HTML, CSS, Php, React, JavaScript**
-- ⚡ Fun fact: **❤❣ Always Stay With Programming ❤❣**
 - 💬 Ask me about **Programming**
+- ⚡ Fun fact: **❤❣ Always Stay With Programming ❤❣**
   <br>
 
 _<h3 align="left">Languages and Tools:</h3>_
