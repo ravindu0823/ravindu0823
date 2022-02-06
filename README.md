@@ -43,7 +43,7 @@ _<h3 align="left">My Trophies:</h3>_
 
 ![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=ravindu0823&theme=radical)
 
-![Profile views](https://gpvc.arturio.dev/ravindu0823)
+![Github Profile Views](https://komarev.com/ghpvc/?username=ravindu0823&color=blueviolet&style=plastic&label=PROFILE+VIEWS)
 
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=ravindu0823&theme=radical)
 
