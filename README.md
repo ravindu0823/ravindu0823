@@ -21,7 +21,7 @@ _<h3 align="left">Connect with me:</h3>_
 <p align="left">
 <a href="https://codepen.io/ravindu0823" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="ravindu0823" height="30" width="40" /></a>
 <a href="https://dev.to/ravindu0823" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="ravindu0823" height="30" width="40" /></a>
-<a href="https://twitter.com/carbonspider114" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="carbonspider114" height="30" width="40" /></a>
+<a href="https://twitter.com/RavinduDhanush4" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="RavinduDhanush4" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/ravindu-dhanushka-1b424a1a9" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ravindu-dhanushka-1b424a1a9" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/16387999" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="16387999" height="30" width="40" /></a>
 <a href="https://fb.com/muditha.warawita" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="muditha.warawita" height="30" width="40" /></a>
@@ -32,6 +32,10 @@ _<h3 align="left">Connect with me:</h3>_
 _<h3 align="left">My Badges:</h3>_
 
 <a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a> <a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a> <a href='https://github.com/pricing'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif' width='40' height='40'></a> <a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a> <a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a>
+
+_<h3 align="left">TryHackMe Badge:</h3>_
+
+<img src="https://tryhackme-badges.s3.amazonaws.com/ravindu0823.png" alt="TryHackMe">
 
 _<h3 align="left">My Trophies:</h3>_
 
