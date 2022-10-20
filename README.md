@@ -4,12 +4,10 @@
 
 ***Undergraduate 👨🏻‍🎓 || Bsc (hons) Software Engineering Plymouth University 👨🏻‍💻 || Plymouth - United Kingdom || NSBM***
 
-_Skills_: **C, C++, C#, Python, HTML, MySQL**
+_Skills_: **C, C++, C#, Python, PHP, Java, MySQL, Mongo DB**
 
-- 🔭 I’m currently studying in **NSBM Green University Bsc (hons) Software Engineering**
-- 🌱 I’m currently learning **C#, HTML, CSS, Php, React, JavaScript**
-- 💬 Ask me about **Programming**
-- ⚡ Fun fact: **❤❣ Always Stay With Programming ❤❣**
+- 🔭 I’m currently studying in **Bsc (hons) Software Engineering Plymouth University**
+- 🌱 I’m currently learning **Java, Deep Learning, Machine Learning, Mongo DB**
   <br>
 
 _<h3 align="left">Languages and Tools:</h3>_
@@ -36,6 +34,8 @@ _<h3 align="left">My Badges:</h3>_
 _<h3 align="left">TryHackMe Badge:</h3>_
 
 <img src="https://tryhackme-badges.s3.amazonaws.com/ravindu0823.png" alt="TryHackMe">
+
+[![@ravindu0823's Holopin board](https://holopin.me/ravindu0823)](https://holopin.io/@ravindu0823)
 
 _<h3 align="left">My Trophies:</h3>_
 
