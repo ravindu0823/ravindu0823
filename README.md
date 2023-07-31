@@ -2,12 +2,12 @@
 
 ## I am a Software Developer
 
-***Undergraduate 👨🏻‍🎓 || Bsc (hons) Software Engineering Plymouth University 👨🏻‍💻 || Plymouth - United Kingdom || NSBM***
+***Undergraduate 👨🏻‍🎓 || Bsc (hons) Software Engineering Plymouth University 👨🏻‍💻 || University of Plymouth***
 
-_Skills_: **C, C++, C#, Python, PHP, Java, MySQL, Mongo DB**
+_Skills_: **C, C++, C#, Python, PHP, Java, MySQL, Mongo DB, React, Spring Boot, Flutter**
 
 - 🔭 I’m currently studying in **Bsc (hons) Software Engineering Plymouth University**
-- 🌱 I’m currently learning **Java, Deep Learning, Machine Learning, Mongo DB**
+- 🌱 I’m currently learning **Flutter, Machine Learning, Next js, Spring Boot**
   <br>
 
 _<h3 align="left">Languages and Tools</h3>_
