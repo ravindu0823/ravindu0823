@@ -1,13 +1,13 @@
 <h1 align="center">Hi there 👋, I'm Ravindu Dhanushka</h1>
 
-## I am a Software Developer
+## I am a Full-Stack Developer
 
 ***Undergraduate 👨🏻‍🎓 || Bsc (hons) Software Engineering Plymouth University 👨🏻‍💻 || University of Plymouth***
 
-_Skills_: **C, C++, C#, Python, PHP, Java, MySQL, Mongo DB, React, Spring Boot, Flutter**
+_Skills_: **C#, Python, PHP, Spring Boot, MySQL, MongoDB, React, ASP.NET, Flutter**
 
 - 🔭 I’m currently studying in **Bsc (hons) Software Engineering Plymouth University**
-- 🌱 I’m currently learning **Flutter, Machine Learning, Next js, Spring Boot**
+- 🌱 I’m currently learning **Flutter, Machine Learning, Next.js, Spring Boot**
   <br>
 
 _<h3 align="left">Languages and Tools</h3>_
@@ -26,10 +26,6 @@ _<h3 align="left">Connect with me</h3>_
 <a href="https://instagram.com/_d_h_a_n_u_23" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_d_h_a_n_u_23" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/guestpc87" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="guestpc87" height="30" width="40" /></a>
 </p>
-
-_<h3 align="left">My Badges</h3>_
-
-<a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a> <a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a> <a href='https://github.com/pricing'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif' width='40' height='40'></a> <a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a> <a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a>
 
 _<h3 align="left">TryHackMe</h3>_
 
