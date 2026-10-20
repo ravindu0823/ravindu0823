@@ -1,0 +1,4 @@
+# Local-only files. secrets.env holds a personal access token and must never be committed.
+secrets.env
+*.env
+.mcp.json
