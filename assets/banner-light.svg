@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="846" height="300" viewBox="0 0 846 300" role="img" aria-labelledby="t d">
+<title id="t">Ravindu Dhanushka Perera: Software Engineer, .NET and Azure</title>
+<desc id="d">Animated banner: name and role on the left, an event-driven system diagram with packets moving from an API gateway through a service bus to identity, ledger and realtime services on the right.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7f9ff"/><stop offset="1" stop-color="#e9f1ff"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6d28d9"/><stop offset="1" stop-color="#0078d4"/></linearGradient>
+<linearGradient id="name" gradientUnits="userSpaceOnUse" x1="44" y1="0" x2="420" y2="0">
+  <stop offset="0" stop-color="#6d28d9"/><stop offset="0.5" stop-color="#0078d4"/><stop offset="1" stop-color="#0891b2"/>
+  <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 90 0; 0 0" dur="7s" repeatCount="indefinite"/>
+</linearGradient>
+<radialGradient id="glowV"><stop offset="0" stop-color="#6d28d9" stop-opacity="0.32"/><stop offset="1" stop-color="#6d28d9" stop-opacity="0"/></radialGradient>
+<radialGradient id="glowA"><stop offset="0" stop-color="#0078d4" stop-opacity="0.26"/><stop offset="1" stop-color="#0078d4" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#cdd7ea"/></pattern>
+<clipPath id="frame"><rect width="846" height="300" rx="18"/></clipPath>
+<clipPath id="type"><rect x="40" y="52" width="282.5" height="28"><animate attributeName="width" from="0" to="282.5" dur="1.6s" begin="0s" fill="freeze"/></rect></clipPath></defs>
+<style>
+.flow { animation: dash 1.2s linear infinite; }
+@keyframes dash { to { stroke-dashoffset: -20; } }
+.caret { animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.pulse { animation: pulse 2.6s ease-in-out infinite; transform-origin: 685px 152px; }
+@keyframes pulse { 0%, 100% { opacity: 0.35; transform: scale(0.9); } 50% { opacity: 0.8; transform: scale(1.1); } }
+@media (prefers-reduced-motion: reduce) { .motion { display: none; } * { animation: none !important; } }
+</style>
+<g clip-path="url(#frame)">
+<rect width="846" height="300" fill="url(#bg)"/>
+<rect width="846" height="300" fill="url(#dots)" opacity="0.55"/>
+<circle cx="110" cy="-10" r="300" fill="url(#glowV)"/>
+<circle cx="760" cy="320" r="300" fill="url(#glowA)"/>
+<circle cx="685" cy="152" r="70" fill="url(#glowV)" class="pulse"/>
+</g>
+<rect x="0.5" y="0.5" width="845" height="299" rx="18" fill="none" stroke="#d8dee9"/>
+<g clip-path="url(#type)">
+  <text x="44" y="72" font-family="'Cascadia Code', 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#0891b2" text-anchor="start" textLength="274.5" lengthAdjust="spacing">$ dotnet run --project ravindu</text>
+</g>
+<rect x="322.5" y="59" width="8" height="17" fill="#0891b2" class="caret" opacity="0">
+  <set attributeName="opacity" to="1" begin="1.6s" fill="freeze"/>
+</rect>
+<text x="44" y="132" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="800" fill="#0f172a" text-anchor="start">Ravindu Dhanushka</text>
+<text x="44" y="184" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="800" fill="url(#name)" text-anchor="start">Perera</text>
+<text x="44" y="224" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="400" fill="#57606a" text-anchor="start">Software Engineer · .NET &amp; Azure · Sri Lanka</text>
+<rect x="44" y="248" width="111.5" height="26" rx="13" fill="#f2f5fb" stroke="#d8dee9"/>
+<text x="99.75" y="265.5" font-family="'Cascadia Code', 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">event-driven</text>
+<rect x="163.5" y="248" width="88.6" height="26" rx="13" fill="#f2f5fb" stroke="#d8dee9"/>
+<text x="207.8125" y="265.5" font-family="'Cascadia Code', 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">real-time</text>
+<rect x="260.125" y="248" width="111.5" height="26" rx="13" fill="#f2f5fb" stroke="#d8dee9"/>
+<text x="315.875" y="265.5" font-family="'Cascadia Code', 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">cloud-native</text>
+<rect x="379.625" y="248" width="96.3" height="26" rx="13" fill="#f2f5fb" stroke="#d8dee9"/>
+<text x="427.75" y="265.5" font-family="'Cascadia Code', 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">idempotent</text>
+<path d="M598 78 L685 152" stroke="#57606a" stroke-opacity="0.55" stroke-width="1.5" fill="none" stroke-dasharray="4 6" class="flow"/>
+<circle r="3.4" fill="#0891b2" class="motion" opacity="0">
+  <animateMotion dur="2.6s" begin="0s" repeatCount="indefinite" path="M598 78 L685 152"/>
+  <animate attributeName="opacity" dur="2.6s" begin="0s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/>
+</circle>
+<path d="M685 152 L772 78" stroke="#57606a" stroke-opacity="0.55" stroke-width="1.5" fill="none" stroke-dasharray="4 6" class="flow"/>
+<circle r="3.4" fill="#0891b2" class="motion" opacity="0">
+  <animateMotion dur="2.6s" begin="0.65s" repeatCount="indefinite" path="M685 152 L772 78"/>
+  <animate attributeName="opacity" dur="2.6s" begin="0.65s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/>
+</circle>
+<path d="M685 152 L772 226" stroke="#57606a" stroke-opacity="0.55" stroke-width="1.5" fill="none" stroke-dasharray="4 6" class="flow"/>
+<circle r="3.4" fill="#0891b2" class="motion" opacity="0">
+  <animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite" path="M685 152 L772 226"/>
+  <animate attributeName="opacity" dur="2.6s" begin="1.3s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/>
+</circle>
+<path d="M685 152 L598 226" stroke="#57606a" stroke-opacity="0.55" stroke-width="1.5" fill="none" stroke-dasharray="4 6" class="flow"/>
+<circle r="3.4" fill="#0891b2" class="motion" opacity="0">
+  <animateMotion dur="2.6s" begin="1.95s" repeatCount="indefinite" path="M685 152 L598 226"/>
+  <animate attributeName="opacity" dur="2.6s" begin="1.95s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.15;0.8;1"/>
+</circle>
+<g>
+  <rect x="546.7" y="64" width="102.5" height="28" rx="8" fill="#ffffff" stroke="#d8dee9" stroke-width="1"/>
+  <text x="598" y="82.5" font-family="'Cascadia Code', 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#57606a" text-anchor="middle">api-gateway</text>
+</g>
+<g>
+  <rect x="731.7" y="64" width="80.6" height="28" rx="8" fill="#ffffff" stroke="#d8dee9" stroke-width="1"/>
+  <text x="772" y="82.5" font-family="'Cascadia Code', 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#57606a" text-anchor="middle">identity</text>
+</g>
+<g>
+  <rect x="633.7" y="138" width="102.5" height="28" rx="8" fill="#ffffff" stroke="url(#accent)" stroke-width="1.6"/>
+  <text x="685" y="156.5" font-family="'Cascadia Code', 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#0f172a" text-anchor="middle">service-bus</text>
+</g>
+<g>
+  <rect x="557.7" y="212" width="80.6" height="28" rx="8" fill="#ffffff" stroke="#d8dee9" stroke-width="1"/>
+  <text x="598" y="230.5" font-family="'Cascadia Code', 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#57606a" text-anchor="middle">realtime</text>
+</g>
+<g>
+  <rect x="739.0" y="212" width="65.9" height="28" rx="8" fill="#ffffff" stroke="#d8dee9" stroke-width="1"/>
+  <text x="772" y="230.5" font-family="'Cascadia Code', 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#57606a" text-anchor="middle">ledger</text>
+</g>
+</svg>

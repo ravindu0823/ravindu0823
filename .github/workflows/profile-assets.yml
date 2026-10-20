@@ -1,0 +1,122 @@
+name: Profile assets
+
+# Builds the generated images the profile README loads (contribution snake, activity and
+# languages cards) and force-publishes them to the `output` branch.
+
+on:
+  schedule:
+    # Twice a day, off the top of the hour, when GitHub's scheduler is busiest and drops runs.
+    - cron: "23 0,12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile-assets.yml"
+
+# Each run force-pushes `output`; two overlapping runs would race that push.
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      # Every file the README loads from `output`. A generator that fails falls back to the
+      # copy published by the previous run, so the README never shows a broken image.
+      PUBLISHED: >-
+        snake-dark.svg snake-light.svg
+        stats-activity-dark.svg stats-activity-light.svg
+        stats-languages-dark.svg stats-languages-light.svg
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Restore last published assets
+        run: |
+          mkdir -p dist
+          # Exit 2 means the branch does not exist yet (first run). Any other failure is a
+          # network or auth problem: stop rather than publish without the fallbacks.
+          status=0
+          git ls-remote --exit-code --heads origin output > /dev/null || status=$?
+          if [ "$status" -eq 0 ]; then
+            git fetch --depth=1 origin output
+            for f in $PUBLISHED; do
+              git show "FETCH_HEAD:$f" > "dist/$f" 2>/dev/null || rm -f "dist/$f"
+            done
+          elif [ "$status" -ne 2 ]; then
+            echo "::error::could not reach the output branch (git ls-remote exit $status)"
+            exit 1
+          fi
+          ls -l dist
+
+      - name: Test stats logic
+        run: |
+          node --version
+          node --test scripts/github.test.mjs
+
+      - name: Generate contribution snake
+        id: snake
+        continue-on-error: true
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # The owner's PAT, so the grid includes private contributions.
+          github_token: ${{ secrets.TOKEN }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#22d3ee&color_dots=#161b22,#2e1f5e,#4c2a9a,#7c4dff,#a78bfa
+            dist/snake-light.svg?palette=github-light&color_snake=#0078d4&color_dots=#ebedf0,#d9ccff,#a98bfa,#7c4ddc,#512bd4
+
+      - name: Generate stats cards
+        id: stats
+        continue-on-error: true
+        env:
+          # Classic PAT of the profile owner with `repo` and `read:user`.
+          STATS_TOKEN: ${{ secrets.TOKEN }}
+          # Refuse to publish if the token can no longer see private work.
+          STATS_EXPECT_PRIVATE: "1"
+        run: node scripts/render.mjs stats dist
+
+      - name: Publish to the output branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd dist
+          missing=""
+          for f in $PUBLISHED; do [ -s "$f" ] || missing="$missing $f"; done
+          if [ -n "$missing" ]; then
+            # Nothing to fall back to (first run, or a wiped branch): publish what exists,
+            # and the failure step below turns the run red.
+            echo "::warning::missing after generation:$missing"
+          fi
+          if [ -z "$(ls -A)" ]; then
+            echo "::error::no files generated; leaving the output branch untouched"
+            exit 1
+          fi
+          git init -q -b output
+          # Only the known files: a stray temp file from a failed render must never ship.
+          for f in $PUBLISHED; do
+            if [ -s "$f" ]; then git add -- "$f"; fi
+          done
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "Update profile assets from ${GITHUB_SHA::7}"
+          # Credentials go in through the environment, not the command line, the way
+          # actions/checkout does it. The encoded form is masked as well as the raw token.
+          auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          echo "::add-mask::$auth"
+          GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0="http.https://github.com/.extraheader" GIT_CONFIG_VALUE_0="AUTHORIZATION: basic $auth" \
+            git push -q -f "https://github.com/${GITHUB_REPOSITORY}.git" output
+
+      # The generators run with continue-on-error so a failure still republishes the last
+      # good files. This step makes that failure visible instead of a silent green run.
+      - name: Fail if a generator failed
+        if: steps.snake.outcome == 'failure' || steps.stats.outcome == 'failure'
+        run: |
+          echo "::error::snake=${{ steps.snake.outcome }} stats=${{ steps.stats.outcome }}. The previous files were republished; check the TOKEN secret first."
+          exit 1
