@@ -33,7 +33,8 @@ STATS_TOKEN="$(gh auth token)" node scripts/render.mjs stats <dir>   # activity 
   - A failure to reach the `output` branch stops the run before anything is published.
   - Only whitelisted file names are published.
 - **Workflow tokens.**
-  - The `TOKEN` secret (the owner's classic PAT: `repo`, `read:user`) is used only to read contributions.
+  - The `TOKEN` secret (the owner's classic PAT: `repo`, `read:user`) reaches only first-party code: the stats step that runs `scripts/render.mjs`. Never pass it to a third-party action. That PAT can write to every repository the owner can reach, client orgs included. A fine-grained token can't replace it, because one fine-grained token covers a single resource owner and the work spans several orgs.
+  - The snake action uses the job's default token. Its grid counts private work only when the owner's "Include private contributions on my profile" setting is on.
   - The push to `output` uses the built-in `github.token`, passed as an env-configured auth header and masked.
   - Actions are pinned by commit SHA, with the version in a comment.
 - **Stale cards.** GitHub disables scheduled workflows in public repos after 60 days without repository activity. Whether the bot pushes to `output` count as activity is UNKNOWN. If the "updated" date on the cards stops moving, re-enable the workflow in the Actions tab.

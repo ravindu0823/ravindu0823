@@ -65,10 +65,12 @@ jobs:
         id: snake
         continue-on-error: true
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        # No github_token input: the action falls back to the job's own read token. The
+        # owner's PAT can write to every repo they can reach, so it never goes to
+        # third-party code. Private work shows in the grid only when "Include private
+        # contributions on my profile" is on in the owner's GitHub settings.
         with:
           github_user_name: ${{ github.repository_owner }}
-          # The owner's PAT, so the grid includes private contributions.
-          github_token: ${{ secrets.TOKEN }}
           outputs: |
             dist/snake-dark.svg?palette=github-dark&color_snake=#22d3ee&color_dots=#161b22,#2e1f5e,#4c2a9a,#7c4dff,#a78bfa
             dist/snake-light.svg?palette=github-light&color_snake=#0078d4&color_dots=#ebedf0,#d9ccff,#a98bfa,#7c4ddc,#512bd4
