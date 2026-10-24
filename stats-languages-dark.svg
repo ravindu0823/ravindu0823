@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="415" height="280" viewBox="0 0 415 280" role="img" aria-labelledby="t d">
+<title id="t">Languages by commits: TypeScript 49.4%, C# 40.5%, JavaScript 3.2%, Python 2.7%, CSS 1.5%, TSQL 1.2%, Other 1.6%</title>
+<desc id="d">Share of commits in the last 12 months by language: TypeScript 49.4%, C# 40.5%, JavaScript 3.2%, Python 2.7%, CSS 1.5%, TSQL 1.2%, Other 1.6%.</desc>
+<defs><linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+<clipPath id="bar"><rect x="24" y="62" width="367" height="12" rx="6"/></clipPath></defs>
+<style>
+@media (prefers-reduced-motion: reduce) { .motion { display: none; } * { animation: none !important; } }
+</style>
+<rect x="0.5" y="0.5" width="414" height="279" rx="14" fill="#0f1629" stroke="#25314f"/>
+<rect x="24" y="24" width="4" height="18" rx="2" fill="url(#accent)"/>
+<text x="36" y="39" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3" text-anchor="start">Languages</text>
+<text x="391" y="39" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#8b98b8" text-anchor="end">by commits · last 12 months</text>
+<rect x="24" y="62" width="367" height="12" rx="6" fill="#161f36"/>
+<g clip-path="url(#bar)"><rect x="24.00" y="62" width="181.20" height="12" fill="#3178c6"/><rect x="205.20" y="62" width="148.67" height="12" fill="#7355dd"/><rect x="353.87" y="62" width="11.60" height="12" fill="#f1e05a"/><rect x="365.48" y="62" width="9.97" height="12" fill="#3572A5"/><rect x="375.45" y="62" width="5.46" height="12" fill="#663399"/><rect x="380.91" y="62" width="4.26" height="12" fill="#e38c00"/><rect x="385.17" y="62" width="5.83" height="12" fill="#8b949e"/></g>
+<circle cx="30" cy="101" r="6" fill="#3178c6"/>
+<text x="44" y="106" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#e6edf3" text-anchor="start">TypeScript</text>
+<text x="199.5" y="106" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#8b98b8" text-anchor="end">49.4%</text>
+<circle cx="221.5" cy="101" r="6" fill="#7355dd"/>
+<text x="235.5" y="106" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#e6edf3" text-anchor="start">C#</text>
+<text x="391" y="106" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#8b98b8" text-anchor="end">40.5%</text>
+<circle cx="30" cy="137" r="6" fill="#f1e05a"/>
+<text x="44" y="142" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#e6edf3" text-anchor="start">JavaScript</text>
+<text x="199.5" y="142" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#8b98b8" text-anchor="end">3.2%</text>
+<circle cx="221.5" cy="137" r="6" fill="#3572A5"/>
+<text x="235.5" y="142" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#e6edf3" text-anchor="start">Python</text>
+<text x="391" y="142" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#8b98b8" text-anchor="end">2.7%</text>
+<circle cx="30" cy="173" r="6" fill="#663399"/>
+<text x="44" y="178" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#e6edf3" text-anchor="start">CSS</text>
+<text x="199.5" y="178" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#8b98b8" text-anchor="end">1.5%</text>
+<circle cx="221.5" cy="173" r="6" fill="#e38c00"/>
+<text x="235.5" y="178" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#e6edf3" text-anchor="start">TSQL</text>
+<text x="391" y="178" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#8b98b8" text-anchor="end">1.2%</text>
+<circle cx="30" cy="209" r="6" fill="#8b949e"/>
+<text x="44" y="214" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#e6edf3" text-anchor="start">Other</text>
+<text x="199.5" y="214" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#8b98b8" text-anchor="end">1.6%</text>
+<text x="24" y="262" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8b98b8" text-anchor="start" textLength="367.0" lengthAdjust="spacingAndGlyphs">Weighted by commits across 99 repositories · updated 24 Oct 2026</text>
+</svg>

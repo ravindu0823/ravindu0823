@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="415" height="280" viewBox="0 0 415 280" role="img" aria-labelledby="t d">
+<title id="t">GitHub activity: 3,593 contributions in the last 12 months</title>
+<desc id="d">2,974 commits, 456 pull requests, 44 code reviews across 110 repositories. Current streak 19 days, longest 20 days. 9,625 contributions since 2020.</desc>
+<defs><linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#38bdf8"/></linearGradient></defs>
+<style>
+@media (prefers-reduced-motion: reduce) { .motion { display: none; } * { animation: none !important; } }
+</style>
+<rect x="0.5" y="0.5" width="414" height="279" rx="14" fill="#0f1629" stroke="#25314f"/>
+<rect x="24" y="24" width="4" height="18" rx="2" fill="url(#accent)"/>
+<text x="36" y="39" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="700" fill="#e6edf3" text-anchor="start">Activity</text>
+<text x="391" y="39" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#8b98b8" text-anchor="end">last 12 months · incl. private work</text>
+<text x="24" y="104" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif"><tspan font-size="42" font-weight="800" fill="url(#accent)">3,593</tspan><tspan dx="10" font-size="15" fill="#8b98b8">contributions</tspan></text>
+<rect x="24.0" y="128" width="115.0" height="50" rx="10" fill="#161f36" stroke="#25314f"/>
+<text x="36" y="151" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#e6edf3" text-anchor="start">2,974</text>
+<text x="36" y="168" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8b98b8" text-anchor="start">Commits</text>
+<rect x="150.0" y="128" width="115.0" height="50" rx="10" fill="#161f36" stroke="#25314f"/>
+<text x="162" y="151" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#e6edf3" text-anchor="start">456</text>
+<text x="162" y="168" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8b98b8" text-anchor="start">Pull requests</text>
+<rect x="276.0" y="128" width="115.0" height="50" rx="10" fill="#161f36" stroke="#25314f"/>
+<text x="288" y="151" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#e6edf3" text-anchor="start">44</text>
+<text x="288" y="168" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8b98b8" text-anchor="start">Code reviews</text>
+<rect x="24.0" y="186" width="115.0" height="50" rx="10" fill="#161f36" stroke="#25314f"/>
+<text x="36" y="209" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#e6edf3" text-anchor="start">110</text>
+<text x="36" y="226" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8b98b8" text-anchor="start">Repositories</text>
+<rect x="150.0" y="186" width="115.0" height="50" rx="10" fill="#161f36" stroke="#25314f"/>
+<text x="162" y="209" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#e6edf3" text-anchor="start">19 days</text>
+<text x="162" y="226" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8b98b8" text-anchor="start">Current streak</text>
+<rect x="276.0" y="186" width="115.0" height="50" rx="10" fill="#161f36" stroke="#25314f"/>
+<text x="288" y="209" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#e6edf3" text-anchor="start">20 days</text>
+<text x="288" y="226" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8b98b8" text-anchor="start">Longest streak</text>
+<text x="24" y="262" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#8b98b8" text-anchor="start">9,625 contributions since 2020 · updated 24 Oct 2026</text>
+</svg>
